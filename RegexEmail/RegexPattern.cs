@@ -11,7 +11,7 @@ namespace RegexEmail
     {
         public static void Pattern(string pattern)
         {
-            Regex email = new Regex(@"(abc)*[@](bridglabz)");
+            Regex email = new Regex(@"(abc)*[@](bridglabz)*[.](co)*[.]");
             bool matches = email.IsMatch(pattern);
 
             if (matches == true)

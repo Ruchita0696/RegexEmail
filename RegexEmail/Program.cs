@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-           
-            RegexPattern.Pattern("abc@bridglabz");
+            RegexPattern.Pattern("abc@bridglabz.co");
         }
     }
 }
